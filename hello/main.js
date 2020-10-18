@@ -46,4 +46,8 @@ console.log(d);
 var randomVal = 0;
 randomVal = 'neeraj';
 randomVal = 1;
+// randomVal.toUpperCase();
 console.log(randomVal);
+var myVariable = 1;
+myVariable.toUpperCase();
+console.log(myVariable);

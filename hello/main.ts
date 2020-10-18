@@ -49,4 +49,11 @@ console.log(d);
 let randomVal : any = 0;
 randomVal = 'neeraj';
 randomVal = 1;
+// randomVal.toUpperCase();
 console.log(randomVal);
+
+let myVariable : unknown = 1;
+(myVariable as String).toUpperCase();
+console.log(myVariable);
+
+
