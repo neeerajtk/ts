@@ -44,3 +44,9 @@ enum Car{Maruthi = 4,Honda,Hyundai};
 let d:Car = Car.Honda;
 console.log(d);
 // Prints 5 
+
+
+let randomVal : any = 0;
+randomVal = 'neeraj';
+randomVal = 1;
+console.log(randomVal);

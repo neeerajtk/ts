@@ -43,3 +43,7 @@ var Car;
 var d = Car.Honda;
 console.log(d);
 // Prints 5 
+var randomVal = 0;
+randomVal = 'neeraj';
+randomVal = 1;
+console.log(randomVal);
