@@ -13,3 +13,5 @@ var total = 4;
 var name = 'Neeraj';
 var sent = "I'm " + name + "\nI'm new to Typescript";
 console.log(sent);
+var n = null;
+var u = undefined;

@@ -20,3 +20,6 @@ let sent: string = `I'm ${name}
 I'm new to Typescript`;
 
 console.log(sent);
+
+let n: null = null;
+let u: undefined = undefined;
