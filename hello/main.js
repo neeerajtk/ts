@@ -15,3 +15,8 @@ var sent = "I'm " + name + "\nI'm new to Typescript";
 console.log(sent);
 var n = null;
 var u = undefined;
+var new1 = undefined;
+var new2 = null;
+// Array 
+var list1 = [1, 2, 3, 4, 5];
+var list2 = [1, 2, 3, 4, 5];
