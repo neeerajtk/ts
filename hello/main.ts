@@ -35,3 +35,12 @@ let list2: Array<number> = [1,2,3,4,5];
 
 let person1 : [string,number] = ['neeraj',22];
 // has exactly one string and one number in the same defined order
+
+enum Color{Red,Green,Yellow};
+let c:Color = Color.Green;
+console.log(c);
+// prints the location of Green , that is 1
+enum Car{Maruthi = 4,Honda,Hyundai};
+let d:Car = Car.Honda;
+console.log(d);
+// Prints 5 
