@@ -9,3 +9,7 @@ var y = 20;
 var title;
 var help = 'title';
 var isBeginner = true;
+var total = 4;
+var name = 'Neeraj';
+var sent = "I'm " + name + "\nI'm new to Typescript";
+console.log(sent);

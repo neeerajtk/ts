@@ -13,3 +13,10 @@ let title;
 const help = 'title';
 
 let isBeginner: boolean = true;
+let total: number = 4;
+let name: string = 'Neeraj';
+
+let sent: string = `I'm ${name}
+I'm new to Typescript`;
+
+console.log(sent);
