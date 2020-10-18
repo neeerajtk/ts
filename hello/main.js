@@ -8,3 +8,4 @@ var sum = 10;
 var y = 20;
 var title;
 var help = 'title';
+var isBeginner = true;

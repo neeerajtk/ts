@@ -11,3 +11,5 @@ const y = 20;
 let title;
 
 const help = 'title';
+
+let isBeginner: boolean = true;
