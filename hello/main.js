@@ -50,4 +50,9 @@ randomVal = 1;
 console.log(randomVal);
 var myVariable = 1;
 myVariable.toUpperCase();
+function hasName(obj) {
+    return !!obj &&
+        typeof obj === "object" &&
+        "name" in obj;
+}
 console.log(myVariable);

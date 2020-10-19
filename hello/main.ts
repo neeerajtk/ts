@@ -54,6 +54,12 @@ console.log(randomVal);
 
 let myVariable : unknown = 1;
 (myVariable as String).toUpperCase();
+
+
+function hasName(obj:any): obj is {name: string}{
+    return !!obj && 
+        typeof obj === "object" && 
+        "name" in obj
+}
+
 console.log(myVariable);
-
-
