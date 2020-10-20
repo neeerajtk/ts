@@ -49,10 +49,21 @@ randomVal = 1;
 // randomVal.toUpperCase();
 console.log(randomVal);
 var myVariable = 1;
-myVariable.toUpperCase();
+// (myVariable as String).toUpperCase();
 function hasName(obj) {
     return !!obj &&
         typeof obj === "object" &&
         "name" in obj;
 }
 console.log(myVariable);
+function addNumber(a, b) {
+    if (b === void 0) { b = 10; }
+    if (b) {
+        return a + b;
+    }
+    else {
+        return a;
+    }
+}
+console.log(addNumber(5));
+console.log(addNumber(5, 20));

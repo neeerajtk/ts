@@ -53,7 +53,7 @@ randomVal = 1;
 console.log(randomVal);
 
 let myVariable : unknown = 1;
-(myVariable as String).toUpperCase();
+// (myVariable as String).toUpperCase();
 
 
 function hasName(obj:any): obj is {name: string}{
@@ -63,3 +63,19 @@ function hasName(obj:any): obj is {name: string}{
 }
 
 console.log(myVariable);
+
+
+
+function addNumber(a: number, b:number=10){
+    if(b){
+        return a+b;
+    }
+    else {
+        return a
+    }
+}
+
+console.log(addNumber(5));
+console.log(addNumber(5,20));
+
+
