@@ -5,7 +5,7 @@ import TextField from './TextField';
 const App: React.FC = () => {
   return ( 
     <div>
-      <TextField text="neeraj"/>
+      <TextField name="neeraj" text={true} age={20}/>
     </div>
   )}
 
