@@ -12,10 +12,10 @@ interface Props {
     mark: Marks;
 }
 
-const TextField: React.FC<Props> = () => {
+const TextField: React.FC<Props> = ({age}) => {
     return (
         <div>
-            Hello 
+            Hello {age}
         </div>
     )
 }
