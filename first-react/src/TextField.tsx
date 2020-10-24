@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 interface Marks {
     internal: number;
@@ -12,10 +12,17 @@ interface Props {
     mark: Marks;
 }
 
-const TextField: React.FC<Props> = ({age}) => {
+
+const TextField: React.FC<Props> = ({age,name}) => {
+    const increment = () => {
+        setCount(count+1)
+    }
+    const [count,setCount] = useState(0);
     return (
         <div>
-            Hello {age}
+            <p>Hello {age} {name}</p>
+            <p>Count is {count}</p>
+            <button onClick={increment}>Increment </button>
         </div>
     )
 }
