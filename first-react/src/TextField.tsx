@@ -11,13 +11,15 @@ interface Props {
     age:number;
     mark: Marks;
 }
-
+interface TextNode {
+    text: string
+}
 
 const TextField: React.FC<Props> = ({age,name}) => {
     const increment = () => {
-        setCount(count+1)
+        setCount('Hai')
     }
-    const [count,setCount] = useState(0);
+    const [count,setCount] = useState<TextNode>({text:"Hello"});
     return (
         <div>
             <p>Hello {age} {name}</p>
