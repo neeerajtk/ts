@@ -16,10 +16,11 @@ interface TextNode {
 }
 
 const TextField: React.FC<Props> = ({age,name}) => {
+        const [count,setCount] = useState<TextNode>({text:"Hello"});
+
     const increment = () => {
         setCount('Hai')
     }
-    const [count,setCount] = useState<TextNode>({text:"Hello"});
     return (
         <div>
             <p>Hello {age} {name}</p>
